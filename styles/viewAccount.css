@@ -1,0 +1,76 @@
+ /* Main body styles */
+ body {
+     background: linear-gradient(to right, #a8e6cf, #fcb0c4);
+     /* Pastel green to pink gradient */
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 2em;
+     /* display: flex; */
+     /* justify-content: center; */
+     /* align-items: center; */
+     min-height: 100vh;
+ }
+
+ /* Centered container */
+ .container {
+     max-width: 600px;
+     padding: 20px;
+     margin: 20px;
+     background-color: rgba(255, 255, 255, 0.9);
+     /* Slightly transparent white */
+     border-radius: 10px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Header and Title styles */
+ h2 {
+     color: #2e7d32;
+     /* Dark green color */
+     text-align: center;
+ }
+
+ /* Paragraph styles for account details */
+ p {
+     font-size: 1rem;
+     color: #333;
+     margin: 10px 0;
+ }
+
+ /* Button styling */
+ button[type="submit"] {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     margin: 20px 0;
+     font-size: 1rem;
+     background-color: #2e7d32;
+     /* Dark green button */
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ button[type="submit"]:hover {
+     background-color: #256628;
+     /* Slightly darker green on hover */
+ }
+
+ /* Link styling */
+ a {
+     color: #2e7d32;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
+
+ /* Aligning logout link */
+ p a {
+     display: block;
+     text-align: center;
+     margin-top: 20px;
+ }

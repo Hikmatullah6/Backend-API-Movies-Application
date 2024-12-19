@@ -1,0 +1,77 @@
+@import "reset.css";
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #FFFBF2, #D9E4DD, #FDE2E4);
+    /* Soft pastel gradient */
+    color: #333;
+    /* Darker color for text readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+/* Form container */
+form {
+    background-color: #FFFFFF;
+    /* White background for the form */
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Form headings */
+h2 {
+    color: #7D9D9C;
+    /* Pastel green-blue */
+    margin-bottom: 1rem;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border: 1px solid #D9E4DD;
+    /* Light pastel border */
+    border-radius: 8px;
+    background-color: #F7F9F9;
+    /* Light pastel background */
+    font-size: 1rem;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #F3B0C3;
+    /* Pastel pink */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #F28DA0;
+    /* Slightly darker pastel pink for hover effect */
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: #7D9D9C;
+    /* Matching label color with header */
+}

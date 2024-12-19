@@ -1,0 +1,71 @@
+/* Main body styles */
+body {
+    background: linear-gradient(to right, #a8e6cf, #fcb0c4);
+    /* Pastel green to pink gradient */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* Dark text for readability */
+}
+
+/* Header styles */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3 {
+    color: #2e7d32;
+    /* Dark green color */
+    margin-top: 0;
+}
+
+/* Section and footer padding */
+section,
+footer {
+    padding: 20px;
+}
+
+/* Style for each endpoint list without HTML modification */
+section h3+ul {
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    /* Slightly lighter background inside boxes */
+}
+
+/* Endpoint list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    padding: 10px 0;
+}
+
+/* Link styling */
+a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
